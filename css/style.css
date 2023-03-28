@@ -8,7 +8,11 @@ body {
 
 body {
     margin-top: 0;
-    margin-left: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
 }
 
 html {
@@ -21,13 +25,16 @@ img {
 
 .logo {
     width: 160px;
-    display: block;
+    display: inline;
     margin-left: auto;
     margin-right: auto;
 }
 
-section> div {
+.max-width {
     max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white;
 }
 
 .wrapper {
@@ -97,10 +104,10 @@ section.hero> div> h1 {
     padding: .5em;
     margin-left: auto;
     margin-right: auto;
-    color: white;
     font-size: 2rem;
     text-shadow: 2px 2px rgba(0,0,0,.8);
     background-color: rgba(0,0,0,.8);
+    color: white;
 }
 
 .trends {
@@ -119,37 +126,47 @@ figure> figcaption {
 }
 
 .icon {
-    display: inline-block;
     padding-top: 2em;
     padding-bottom: 2em;
     padding-left: 0;
     padding-right: 0;
+    margin-left: auto;
+    margin-left: auto;
 }
 
 .icon {
     width: 260px;
     float: left;
+    margin-left: 7em;
+}
+
+.fashion-icons> div> h2 {
+    float: left;
     margin-right: 2em;
+    margin-left: 2em;
+    content: inherit;
 }
 
 .fashion-icons> div> p {
     float: right;
 }
 
-.featured-article {
+section.featured-articles {
     display: none;
 }
 
 footer {
     background-color: black;
     color: white;
+
 }
 
 footer> p {
-    contain: wrapper;
+    float: left;
     text-align: center;
     padding-top: 8px;
     padding-bottom: 8px;
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 0px;
+    padding-right: 0px;
 }
+
