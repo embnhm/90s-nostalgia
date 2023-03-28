@@ -25,3 +25,42 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+
+6
+
+.wrapper {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+header {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    padding-left: 0px;
+    padding-right: 0;
+}
+
+nav> ul> li {
+    list-style: none;
+    display: inline-block;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    
+}
+
+nav {
+    display: inline-block;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: .75em;
+    padding-right: .75em;
+    border-radius: 8px;
+}
